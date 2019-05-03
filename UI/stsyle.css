@@ -657,3 +657,7 @@ padding: 5px;
 #mydocument button{
 	background: #f7c61d;
 }
+button a{
+	text-decoration:none;
+	color: black
+}
