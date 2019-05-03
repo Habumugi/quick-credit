@@ -12,6 +12,7 @@ margin-left: 1%;
 	zoom: 1.0;
 }
 
+
  *{
  	margin: 0px;
  	padding: 0px;
@@ -22,8 +23,7 @@ justify-content: center;
 
  }
  .wrapper{
-	min-height: 580px;
-	max-height: 1810px;
+	height: 100vh;
 	max-width: 1250px;
 	background-color: white;
 	margin-top: 0 auto;
@@ -40,7 +40,7 @@ background-image:  #EFEEEE/*url(f.jpg)*/;
 	border-bottom: 3px solid orange;
     line-height: 25px;
     margin-left: 0px;
-
+    
     margin-right: 0px;
 	padding: 20px;
 	font-size: 30px;
@@ -81,9 +81,10 @@ img{
 background-color: #F020F3;
 display: fixed;
 margin: 0 auto;
+
 margin-top: 0px;
 min-height: 80px;
-max-height: 40%;
+max-height: 200px;
 background-opacity: 0.7; 
 text-decoration: none;
 clear: both;
@@ -121,8 +122,8 @@ clear: both;
 	height: 30px; 
 	padding: 5px;
 	margin-top: 10px;
-	margin-right: 15px;
-	width: 85px;
+	margin-right: 40px;
+	width: fit-content;
 }
 .li1:hover{
 	text-decoration: none;
@@ -133,8 +134,8 @@ clear: both;
 	display: block;
 	margin-top: 10px;
 	padding: 5px;
-	margin-right: 15px;
-	width: 85px;
+	margin-right: 40px;
+	width: fit-content;
 	height: 30px;
 	border: 2px solid black
 
@@ -156,9 +157,9 @@ clear: both;
 	border-radius: 5px;
 	height: 30px; 
 	padding: 5px;
-	margin-right: 15px;
+	margin-right: 40px;
 	margin-top: 10px;
-	width: 85px;
+	width: fit-content;
 	color: black;
 }
 .li2:hover{
@@ -171,7 +172,7 @@ clear: both;
 	padding: 5px
 	margin-right: 15px;
 	margin-top: 10px;
-	max-width: 85px;
+	width: fit-content;
 	color: black;
 }
 .li2:hover a{
@@ -188,6 +189,7 @@ clear: both;
 	list-style: none;
 	align-items: center;
 	float: center;
+	width: fit-content;
 	text-decoration-style: none;
 	position: relative;
 	padding: 10px
@@ -203,7 +205,7 @@ clear: both;
 		display: block;
 		list-style: none;
 		padding:15px;
-		width: 140px;
+		width: fit-content;
 		font-weight: bold;
 		margin-top: 15px;
 		/*border-radius: 9px;*/
@@ -218,9 +220,9 @@ clear: both;
 	ul li a{
 		text-decoration: none;
         display:block;
-        color: white;
+        color: #111;
         font-size: 20px
-        
+        width:fit-content;
 	}
 	ul li:hover {
 		background-color: #73F89F;
@@ -239,7 +241,8 @@ clear: both;
 
 }
 .artical{
-max-height: 600px;
+height: (100vh-120px);
+width: fit-content;
 text-align: center;
 justify-content: center;
 align-items: center;
@@ -259,7 +262,7 @@ background-repeat: no-repeat;
 .pra1{
 	margin-top: 20px;
 	float: center;
-	color: white;
+	color: #111;
 	font-size: 30px
 	
 }
@@ -286,7 +289,7 @@ form{
 }
 .container{
 	min-height: 180px;
-	max-width: 250px;
+	max-width: fit-content;
 	border: 1px solid #808B96;
 	border-radius: 10px;
 	margin: 0 auto;
@@ -390,7 +393,7 @@ font-size: 12px
 	margin-right: 10px;
 	margin-left: 20px;
 	margin-bottom: 30px;
-	min-width: 250px;
+	width: fit-content;
 	border: 2px solid blue;
 	border-radius: 10px;
     box-shadow: 0 4px #899CAF;
@@ -439,7 +442,7 @@ font-size: 12px
 	border: 1px solid #D0DED4;
 	border-radius: 15px;
 	min-height: 300px;
-	max-width: 500px;
+	width: fit-content;
 	margin: 0 auto;
 	margin-left: 15px;
 	margin-top: 30px;
@@ -622,10 +625,10 @@ padding: 5px;
 	grid-template-columns: 1fr 1fr 1fr;
 	margin-right: 15px;
 }
-	#look img{
+	#lookId{
 		width: 250px;
 
-		min-height: 300px;
+		height: 300px;
 		
 	}
 #demologin{
@@ -636,12 +639,12 @@ padding: 5px;
 		font-family: sans-serif;
 	}
 	#imageId{
-		max-width: 450px;
+		width: fit-content;
 		min-height: 300px;
-		margin-left: 400px;
+		margin-left: 30px;
 		float: center;
 		align-items: center;
-		padding: 20px;
+		padding: 10px 5px;
 		margin-top: 30px;
 		background-color: white;
 		display: grid;
@@ -661,6 +664,7 @@ padding: 5px;
 	font-family: sans-serif;
 	font-size: 17px;
 	height: 150px;
+	padding: 10px;
 	position: flex;
 }
 #mycomment{
@@ -688,15 +692,12 @@ input radio{
 	font-size: 5px
 }
 .applica{
-max-width : 600px;
+width : fit-content;
 background: #e2e2e2;
 border: 1 solid #e2e2e2;
 padding: 20px;
 float: center;
+margin-left: 5px auto;
 align-items: center;
-margin-left: 20%
-}
-#imageId{
-	max-width:640px;
-	height: 320px;
+position: center;
 }
