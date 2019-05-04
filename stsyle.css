@@ -609,7 +609,8 @@ padding: 5px
 	border-radius: 50%;
 }
 .twitter{
-max-width: 80px;
+max-width: 70px;
+height:70px;
 color: #224E6A;
 padding: 5px;
 }
