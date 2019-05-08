@@ -264,7 +264,7 @@ background-repeat: no-repeat;
 clear: both;
 }
 .show{
-	background:url('images/pexel.JPEG');
+	background:url('pexel.JPEG');
 	min-height: 400px;
 	width: 100%;
 	background-repeat: no-repeat;
