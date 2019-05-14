@@ -7,3 +7,8 @@ const navSlide = () =>{
     });
 };
 navSlide();
+
+document.getElementById("demo").addEventLitener("click", myfunction());
+function myfunction(){
+    document.getElementById("demo").innerHTML = "user_panel.html";
+};
