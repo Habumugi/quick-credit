@@ -29,8 +29,8 @@ height: 100%;
 	height: 100%;
 	min-width: 100%;
 	margin-left: 0%;
-	margin-top: 0px;
-	padding: 20px;
+	/* margin-top: 0px; */
+	/* padding: 20px; */
 }
 .top{
 
@@ -796,11 +796,18 @@ to{
  	
  } */
  .loans_posted{
+	 margin-top:30px;
 	 width:400px;
-	 height:300px;
+	 height:cal(100%+20px);
+	 padding:20px;
 	 margin-left:20%;
 	 background-color:#c0acac;
 
+ }
+ .userShow{
+	 margin-left:70px;
+	 margin-top: 20px;
+	 list-style:none
  }
  .signup{
 	 width: 400px;
@@ -810,4 +817,30 @@ to{
 	 margin-left:25%;
 	 margin-top:5%;
 	  border-right:3px solid rgb(43, 41, 41);
+ }
+ table{
+	 border-collapse:collapse;
+	 margin-top:20px;
+	 width:80%;
+ }
+ table.list{
+	 padding:10px;
+	 width:100%;
+	 /* float: center; */
+	 border: 1px #111;
+	 /* margin-left:5%; */
+	 height: fit-content
+ }
+.list tr{
+	 /* padding:3px; */
+	 border:none;
+	 width:fit-content
+ }
+ .td th{
+	border: 1px solid #dddddd;
+	text-align:left;
+	/* padding: 3px */
+ }
+ tr:nth-child(even),table.list thead>tr{
+	 background-color:#dddddd;
  }
