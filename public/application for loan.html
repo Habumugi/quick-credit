@@ -30,7 +30,7 @@
                     <ul class="ul1">
                         <li class="li1"> <a href="sign .html">signup </a>
 
-                            <!-- <ul class="ul2">
+                            <ul class="ul2">
 			   <li class="li10"><a href="admin.html" class="a1">Admin</a> </li>
 			  <li class="li10"><a href="sign up.html" class="a1"> User</a> </li>
 		         </ul>-->
@@ -45,24 +45,24 @@
                 <div class="line3"></div>
             </div> -->
         </div>
-        <script src="navbar.js"></script>
+        
         <div id="article">
             <p id="pa"> Apply for loans and be millioner person. </p>
             <br>
             <div class="applica">
-                <form class="demo2" method="POST">
-                    <p> <label> First Name : </label><br> <input type="text" name="name" required=""></p>
+                <form class="demo2" onsubmit="event.preventDefault()"; onFormSubmit(); method="POST" autocomplete="off">
+                    <p> <label> First Name : </label><br> <input type="text" name="name" id="fname" required=""></p>
                     <br>
-                    <p> <label> Last Name: </label><br><input type="text" name="name" required=""></p>
+                    <p> <label> Last Name: </label><br><input type="text" name="name" id="lname" required=""></p>
                     <br>
-                    <p><label> E-mail : </label><br><input type="text" name="email" required=""></p>
+                    <p><label> E-mail : </label><br><input type="text" name="email" id="e-mail" required=""></p>
                     <br>
-                    <p><label>Amount you want : </label><br><input type="text" name="amount" required=""></p>
+                    <p><label>Amount you want : </label><br><input type="text" name="amount" id="amount" required=""></p>
                     <br>
-                    <p><label> Instalment you will pay :</label><br> <input type="text" name="instalment" required="">
+                    <p><label> Instalment you will pay :</label><br> <input type="text" id="instalment" name="instalment" required="">
                     </p>
                     <br>
-                    <p><label>Balance on account : </label><br> <input type="text" name="balance" required=""></p>
+                    <p><label>Balance on account : </label><br> <input type="text" id="balance" name="balance" required=""></p>
                     <br>
                     Your date of birth<br>
                     <input type="date" name="myDate" id="myDate"></p>
@@ -75,20 +75,21 @@
                     </div>
                     <br>
                     <div>
-                        Occupatin:</br>
+                        Occupation:</br>
                         <input type="radio" name="radio" id="radio">Self-empolyeed</br>
                         <input type="radio" name="radio" id="radio"> non-empolyeed</br>
                         <input type="radio" name="radio" id="radio">Student</p>
                     </div>
                     <br>
-                    <input type="checkbox" id="radio">I agree terms and conditions<br>
+                    <input type="checkbox" id="check" required="">I agree terms and conditions<br>
                     <br>
 
 
-                    <button id="btnloan">subumit</button>
+                    <button id="btnloan" class="form-action-button" value="submit">submit</button>
                 </form>
             </div>
         </div>
+        <script src="./stare.js"></script>
         <div class="footer">
             &copy 2019 for online loans.
         </div>
